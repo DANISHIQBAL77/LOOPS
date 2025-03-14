@@ -64,3 +64,81 @@
       }
       
       //continue statement
+
+
+
+      //practice 
+
+
+      //print all even numbers
+
+      for (let num = 0; num <= 100; num++){
+        if(num%2 === 0){
+          console.log("num =" ,num);
+        }
+        else {
+
+        }
+      }
+
+
+      //print all odd numbers
+
+      for (let num = 0; num <= 100; num++){
+        if(num%2 !== 0){
+          console.log("num =" ,num);
+        }
+        else {
+
+        }
+      }
+
+
+      //practice#2
+
+
+      let gameNum = 25;
+
+      let userNum = prompt("Guess the game number : ");
+      
+
+      while(userNum != gameNum){
+        userNum = prompt("You entered wrong Number.Guess again : ");
+      }
+       console.log("congrats you guess correctly");
+       
+
+      //strings
+
+
+      let str1 = "coding";
+      let str2 = 'programming';
+
+      //template literals
+      let obj = {
+        item: "pen",
+        price: 10,
+      }
+
+      let price = `the cost of ${obj.item} is ${obj.price} rupees`;
+      console.log(price);
+      
+      
+
+      let mydata = {
+        Name: "DANISH",
+        age: 30,
+        interest: "programing",
+      }
+
+      let output = `My name is ${mydata.Name}.My age is ${mydata.age} and I like ${mydata.interest}.`
+      console.log(output);
+
+
+       //string methods
+
+
+       let str = "coding";
+
+       
+                    
